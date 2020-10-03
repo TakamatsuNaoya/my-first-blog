@@ -40,12 +40,16 @@
     <Compile Include="writer\migrations\__init__.py" />
     <Compile Include="writer\models.py" />
     <Compile Include="writer\tests.py" />
+    <Compile Include="writer\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="writer\views.py" />
     <Compile Include="writer\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="writer\templates\writer\index.html" />
+    <Content Include="writer\templates\writer\post_list.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="techblog\" />
